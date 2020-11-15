@@ -1,0 +1,54 @@
+html, body{
+    height: 100%;
+}
+img{
+    max-width: 100%;
+}
+
+#galeria .col-lg-4 {
+    margin: 0 !important;
+    padding: 20px;
+}
+
+#galeria img {
+    width: 100%;
+    height: 400px;
+}
+
+#galeria img:hover {
+    border: 5px solid black;
+}
+
+#cover{
+    background: #222 url("../img/SlamDunkWallpaper.png") center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-texto{
+    width: 100%;
+}
+
+#cover-texto .form-inline{
+    padding: 5rem 0;
+}
+
+.contenido-seccion{
+    padding: 5rem 0;
+}
+
+#acerca-de{
+    background: #222 url("../img/Kyoukai\ no\ Kanata.jpg") center center no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.texto-acerca-de{
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1.875rem;
+}
